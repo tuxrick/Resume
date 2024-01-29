@@ -1,0 +1,17 @@
+.orange{
+    color: #DB6846;
+}
+
+.education_title{
+    margin-top:25px !important;
+    margin-bottom:0px !important;
+    font-weight: 500 !important;
+}
+
+.education_timeline_title{
+    font-weight: 700 !important;
+}
+
+.education_timeline_year{
+    font-weight: bold !important;
+}
