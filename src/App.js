@@ -1,13 +1,25 @@
 import React from 'react';
-import Button from '@mui/material/Button';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import NavBar from './components/ui_assets/NavBar';
+
+import Home from './components/home/Home';
+import Experience from './components/experience/Experience';
+import Education from './components/education/Education';
+import Skills from './components/skills/Skills';
 
 function App() {
   return (
-    <div className="App">
-      <Button variant="contained" color="primary">
-        hello world
-      </Button>
-    </div>
+    <Router>
+      <div>
+        <NavBar /> 
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/education" element={<Education />} />
+          <Route path="/skills" element={<Skills />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
