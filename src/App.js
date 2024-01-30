@@ -5,7 +5,7 @@ import NavBar from './components/ui_assets/NavBar';
 import Home from './components/home/Home';
 import Experience from './components/experience/Experience';
 import Education from './components/education/Education';
-import Skills from './components/Skills';
+import Skills from './components/skills/Skills';
 
 function App() {
   return (
